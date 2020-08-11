@@ -1,0 +1,4 @@
+docker build ./ft-rails --tag ft-rails:on-build
+docker build . --tag ex02
+docker run -d --name railsapp -it --rm -p 3000:3000 ex02
+docker stop railsapp
