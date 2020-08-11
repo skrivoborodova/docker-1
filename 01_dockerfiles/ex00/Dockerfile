@@ -6,4 +6,5 @@ RUN apk update && \
 
 ENTRYPOINT vim
 
-# docker build <DOCKERFILE_PATH> --tag <IMAGE_NAME>
+# docker build . --tag ex00
+# docker run --rm -ti ex00
